@@ -1,0 +1,41 @@
+{
+  "name": "awesome-gpt-image-api-proxy-skills",
+  "version": "1.0.1",
+  "description": "Agent Skill and npm installer for GPT Image API proxy generation using GPT_IMAGE_BASE_URL and GPT_IMAGE_API_KEY.",
+  "bin": {
+    "awesome-gpt-image-api-proxy-skills": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "validate": "node --test tests/*.test.js"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "llms-install.md",
+    "_meta.json",
+    "scripts/",
+    "references/",
+    "assets/",
+    "LICENSE",
+    "README*.md"
+  ],
+  "keywords": [
+    "gpt-image",
+    "gpt-image-2",
+    "image-generation",
+    "api-proxy",
+    "agent-skill",
+    "text-to-image",
+    "image-editing"
+  ],
+  "author": "code-skills workspace",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/awesome-gpt-image-api-proxy-skills"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
