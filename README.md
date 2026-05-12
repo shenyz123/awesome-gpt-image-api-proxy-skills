@@ -9,12 +9,12 @@
 </p>
 
 <p align="center">
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/references/api-params.md"><img src="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/assets/banner.jpg" alt="awesome-gpt-image-api-proxy-skills banner" width="100%" /></a>
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/references/api-params.md"><img src="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/assets/banner.jpg" alt="awesome-gpt-image-api-proxy-skills banner" width="100%" /></a>
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/awesome-gpt-image-api-proxy-skills"><img src="https://img.shields.io/npm/v/awesome-gpt-image-api-proxy-skills?color=cb3837&label=npm" alt="NPM version"></a>
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/node-%3E%3D18-339933" alt="Node.js >=18">
   <img src="https://img.shields.io/badge/API-Proxy-6f42c1" alt="Configurable API proxy">
 </p>
@@ -29,22 +29,22 @@
 </p>
 
 <p align="center">
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/README.md">English</a> |
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/README.es.md">Español</a> |
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/README.pt.md">Português</a> |
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/README.ja.md">日本語</a> |
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/README.ko.md">한국어</a> |
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/README.de.md">Deutsch</a> |
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/README.fr.md">Français</a> |
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/README.tr.md">Türkçe</a> |
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/README.zh-TW.md">繁體中文</a> |
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/README.zh-CN.md">简体中文</a> |
-  <a href="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/README.ru.md">Русский</a>
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.md">English</a> |
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.es.md">Español</a> |
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.pt.md">Português</a> |
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.ja.md">日本語</a> |
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.ko.md">한국어</a> |
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.de.md">Deutsch</a> |
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.fr.md">Français</a> |
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.tr.md">Türkçe</a> |
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.zh-TW.md">繁體中文</a> |
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.zh-CN.md">简体中文</a> |
+  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.ru.md">Русский</a>
 </p>
 
 ---
 
-> **AI Agent?** Skip the README and open [**llms-install.md**](https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/llms-install.md) for installation steps designed for agents.
+> **AI Agent?** Skip the README and open [**llms-install.md**](https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/llms-install.md) for installation steps designed for agents.
 
 ---
 
@@ -133,7 +133,7 @@ GPT_IMAGE_API_KEY=your_key_here
 
 | Portrait Styling | Product Marketing | Character Design |
 |---|---|---|
-| <img src="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/assets/showcase/portrait.jpg" alt="Portrait example" width="100%"> | <img src="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/assets/showcase/product.jpg" alt="Product example" width="100%"> | <img src="https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/assets/showcase/character.jpg" alt="Character example" width="100%"> |
+| <img src="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/assets/showcase/portrait.jpg" alt="Portrait example" width="100%"> | <img src="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/assets/showcase/product.jpg" alt="Product example" width="100%"> | <img src="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/assets/showcase/character.jpg" alt="Character example" width="100%"> |
 
 > The bundled showcase images illustrate what an image generation workflow can produce. Actual results depend on your configured API proxy and selected model.
 
@@ -170,7 +170,7 @@ node ./scripts/gpt-image-gen.js "Test prompt" --model=gpt-image-2 --out=./gpt-im
 
 ### API Parameters
 
-See [references/api-params.md](https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/references/api-params.md) for endpoint, payload, result, and output details.
+See [references/api-params.md](https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/references/api-params.md) for endpoint, payload, result, and output details.
 
 ### Output Protocol
 
@@ -238,9 +238,9 @@ MIT
 
 ## Community
 
-- Skill definition: [SKILL.md](https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/SKILL.md)
-- Agent installer guide: [llms-install.md](https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/llms-install.md)
-- API reference: [references/api-params.md](https://unpkg.com/awesome-gpt-image-api-proxy-skills@latest/references/api-params.md)
+- Skill definition: [SKILL.md](https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/SKILL.md)
+- Agent installer guide: [llms-install.md](https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/llms-install.md)
+- API reference: [references/api-params.md](https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/references/api-params.md)
 
 ---
 
