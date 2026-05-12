@@ -33,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/awesome-gpt-image-api-proxy-skills"
+    "url": "https://github.com/shenyz123/awesome-gpt-image-api-proxy-skills.git"
   },
   "engines": {
     "node": ">=18"
