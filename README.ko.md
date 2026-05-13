@@ -2,11 +2,11 @@
 
 이 프로젝트는 [원본 GitHub 프로젝트](https://github.com/EvoLinkAI/gpt-image-2-gen-skill)를 기반으로 개발되었습니다. 훌륭한 오픈소스 결과물을 제공해 준 [evolink.ai](https://evolink.ai)에 감사드립니다.
 
-# awesome-gpt-image-api-proxy-skills
+# image-gen-proxy
 
-<p align="center"><strong>OpenClaw, Claude Code, OpenCode, Cursor 및 AI 에이전트를 위한 GPT Image API 프록시 Skill입니다. 설정 가능한 이미지 생성과 로컬 출력에 대응합니다.</strong></p>
-<p align="center"><a href="references/api-params.md"><img src="assets/banner.jpg" alt="awesome-gpt-image-api-proxy-skills banner" width="100%" /></a></p>
-<p align="center"><a href="https://www.npmjs.com/package/awesome-gpt-image-api-proxy-skills"><img src="https://img.shields.io/npm/v/awesome-gpt-image-api-proxy-skills?color=cb3837&label=npm" alt="NPM version"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a> <img src="https://img.shields.io/badge/node-%3E%3D18-339933" alt="Node.js >=18"> <img src="https://img.shields.io/badge/API-Proxy-6f42c1" alt="Configurable API proxy"></p>
+<p align="center"><strong>Codex용 GPT Image API 프록시 Skill입니다(OpenCode, Cursor 등은 직접 검증하세요). 타사 프록시가 제공하는 인터페이스에 따라 다른 모델도 사용할 수 있습니다. 이미지 생성과 편집을 지원하며, 구성 가능한 게이트웨이, 모델 파라미터, 로컬 이미지 출력을 제공합니다.</strong></p>
+<p align="center"><a href="references/api-params.md"><img src="assets/banner.jpg" alt="image-gen-proxy banner" width="100%" /></a></p>
+<p align="center"><a href="https://www.npmjs.com/package/image-gen-proxy"><img src="https://img.shields.io/npm/v/image-gen-proxy?color=cb3837&label=npm" alt="NPM version"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a> <img src="https://img.shields.io/badge/node-%3E%3D18-339933" alt="Node.js >=18"> <img src="https://img.shields.io/badge/API-Proxy-6f42c1" alt="Configurable API proxy"></p>
 <p align="center"><a href="README.md">English</a> | <a href="README.es.md">Español</a> | <a href="README.pt.md">Português</a> | <a href="README.ja.md">日本語</a> | <a href="README.ko.md">한국어</a> | <a href="README.de.md">Deutsch</a> | <a href="README.fr.md">Français</a> | <a href="README.tr.md">Türkçe</a> | <a href="README.zh-TW.md">繁體中文</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.ru.md">Русский</a></p>
 
 ---
@@ -29,26 +29,26 @@
 
 ## 이것은 무엇인가요?
 
-**awesome-gpt-image-api-proxy-skills** 는 OpenAI 호환 GPT Image API 프록시용 AI 에이전트 이미지 생성 Skill 및 npm 설치 도구입니다. 고정 게이트웨이를 사용하지 않고 `.env` 또는 시스템 환경에서 `GPT_IMAGE_BASE_URL` 과 `GPT_IMAGE_API_KEY` 를 읽습니다.
+**image-gen-proxy** 는 OpenAI 호환 GPT Image API 프록시용 AI 에이전트 이미지 생성 Skill 및 npm 설치 도구입니다. 고정 게이트웨이를 사용하지 않고 `.env` 또는 시스템 환경에서 `GPT_IMAGE_BASE_URL` 과 `GPT_IMAGE_API_KEY` 를 읽습니다.
 
 | Skill | 설명 | 기본 모델 |
 |---|---|---|
-| **Awesome GPT Image API Proxy Skills** | 텍스트 이미지 생성, 이미지 편집, 배치 생성, 설정 가능한 API 프록시, 로컬 저장 | `gpt-image-2` |
+| **Image Gen Proxy** | 텍스트 이미지 생성, 이미지 편집, 배치 생성, 설정 가능한 API 프록시, 로컬 저장 | `gpt-image-2` |
 
 ---
 
 ## 설치
 
 ```bash
-npx awesome-gpt-image-api-proxy-skills
-npx awesome-gpt-image-api-proxy-skills -y --path ~/.codex/skills
-npx awesome-gpt-image-api-proxy-skills -y --path ~/.claude/skills
+npx image-gen-proxy
+npx image-gen-proxy -y --path ~/.codex/skills
+npx image-gen-proxy -y --path ~/.claude/skills
 ```
 
 수동 설치:
 
 ```bash
-cd awesome-gpt-image-api-proxy-skills
+cd image-gen-proxy
 node ./bin/cli.js -y --path ~/.codex/skills
 ```
 

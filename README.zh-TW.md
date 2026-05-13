@@ -2,11 +2,11 @@
 
 本專案基於 [原 GitHub 專案](https://github.com/EvoLinkAI/gpt-image-2-gen-skill) 開發，感謝作者 [evolink.ai](https://evolink.ai) 提供的優秀開源成果！
 
-# awesome-gpt-image-api-proxy-skills
+# image-gen-proxy
 
-<p align="center"><strong>面向 OpenClaw、Claude Code、OpenCode、Cursor 和 AI Agent 的 GPT Image API 代理技能，支援可配置閘道、模型參數與本機圖片輸出。</strong></p>
-<p align="center"><a href="references/api-params.md"><img src="assets/banner.jpg" alt="awesome-gpt-image-api-proxy-skills banner" width="100%" /></a></p>
-<p align="center"><a href="https://www.npmjs.com/package/awesome-gpt-image-api-proxy-skills"><img src="https://img.shields.io/npm/v/awesome-gpt-image-api-proxy-skills?color=cb3837&label=npm" alt="NPM version"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a> <img src="https://img.shields.io/badge/node-%3E%3D18-339933" alt="Node.js >=18"> <img src="https://img.shields.io/badge/API-Proxy-6f42c1" alt="Configurable API proxy"></p>
+<p align="center"><strong>面向 Codex（OpenCode、Cursor 等請自行驗證）的 GPT Image API（或其他模型，以第三方代理提供的介面為準）代理技能，可用於繪圖與修圖，支援可配置閘道、模型參數與本機圖片輸出。</strong></p>
+<p align="center"><a href="references/api-params.md"><img src="assets/banner.jpg" alt="image-gen-proxy banner" width="100%" /></a></p>
+<p align="center"><a href="https://www.npmjs.com/package/image-gen-proxy"><img src="https://img.shields.io/npm/v/image-gen-proxy?color=cb3837&label=npm" alt="NPM version"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a> <img src="https://img.shields.io/badge/node-%3E%3D18-339933" alt="Node.js >=18"> <img src="https://img.shields.io/badge/API-Proxy-6f42c1" alt="Configurable API proxy"></p>
 <p align="center"><a href="README.md">English</a> | <a href="README.es.md">Español</a> | <a href="README.pt.md">Português</a> | <a href="README.ja.md">日本語</a> | <a href="README.ko.md">한국어</a> | <a href="README.de.md">Deutsch</a> | <a href="README.fr.md">Français</a> | <a href="README.tr.md">Türkçe</a> | <a href="README.zh-TW.md">繁體中文</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.ru.md">Русский</a></p>
 
 ---
@@ -29,26 +29,26 @@
 
 ## 這是什麼？
 
-**awesome-gpt-image-api-proxy-skills** 是 AI Agent 圖像生成技能與 npm 安裝器，用於對接 OpenAI 相容的 GPT Image API 代理。它不使用固定 API 閘道，而是從專案 `.env` 或系統環境讀取 `GPT_IMAGE_BASE_URL` 與 `GPT_IMAGE_API_KEY`。
+**image-gen-proxy** 是 AI Agent 圖像生成技能與 npm 安裝器，用於對接 OpenAI 相容的 GPT Image API 代理。它不使用固定 API 閘道，而是從專案 `.env` 或系統環境讀取 `GPT_IMAGE_BASE_URL` 與 `GPT_IMAGE_API_KEY`。
 
 | 技能 | 描述 | 預設模型 |
 |---|---|---|
-| **Awesome GPT Image API Proxy Skills** | 文生圖、圖像編輯、批量生成、可配置 API 代理、本機下載 | `gpt-image-2` |
+| **Image Gen Proxy** | 文生圖、圖像編輯、批量生成、可配置 API 代理、本機下載 | `gpt-image-2` |
 
 ---
 
 ## 安裝
 
 ```bash
-npx awesome-gpt-image-api-proxy-skills
-npx awesome-gpt-image-api-proxy-skills -y --path ~/.codex/skills
-npx awesome-gpt-image-api-proxy-skills -y --path ~/.claude/skills
+npx image-gen-proxy
+npx image-gen-proxy -y --path ~/.codex/skills
+npx image-gen-proxy -y --path ~/.claude/skills
 ```
 
 手動安裝：
 
 ```bash
-cd awesome-gpt-image-api-proxy-skills
+cd image-gen-proxy
 node ./bin/cli.js -y --path ~/.codex/skills
 ```
 
@@ -130,7 +130,7 @@ ERROR: <message>
 
 ## 相容性
 
-Codex、Claude Code、OpenCode、OpenClaw、Cursor 或任何支援 skills 目錄的 Agent 均可使用 `npx awesome-gpt-image-api-proxy-skills -y --path <skills-dir>` 安裝。
+Codex、Claude Code、OpenCode、OpenClaw、Cursor 或任何支援 skills 目錄的 Agent 均可使用 `npx image-gen-proxy -y --path <skills-dir>` 安裝。
 
 ## 授權
 

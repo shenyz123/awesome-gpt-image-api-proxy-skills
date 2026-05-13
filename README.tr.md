@@ -2,11 +2,11 @@
 
 Bu proje, [orijinal GitHub projesi](https://github.com/EvoLinkAI/gpt-image-2-gen-skill) temel alınarak geliştirildi. Harika açık kaynak çalışması için [evolink.ai](https://evolink.ai) ekibine teşekkürler.
 
-# awesome-gpt-image-api-proxy-skills
+# image-gen-proxy
 
-<p align="center"><strong>OpenClaw, Claude Code, OpenCode, Cursor ve yerel çıktı isteyen AI ajanları için yapılandırılabilir GPT Image API proxy skill’i.</strong></p>
-<p align="center"><a href="references/api-params.md"><img src="assets/banner.jpg" alt="awesome-gpt-image-api-proxy-skills banner" width="100%" /></a></p>
-<p align="center"><a href="https://www.npmjs.com/package/awesome-gpt-image-api-proxy-skills"><img src="https://img.shields.io/npm/v/awesome-gpt-image-api-proxy-skills?color=cb3837&label=npm" alt="NPM version"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a> <img src="https://img.shields.io/badge/node-%3E%3D18-339933" alt="Node.js >=18"> <img src="https://img.shields.io/badge/API-Proxy-6f42c1" alt="Configurable API proxy"></p>
+<p align="center"><strong>Codex için GPT Image API proxy skill'i (OpenCode, Cursor ve diğerleri için uyumluluğu kendiniz doğrulayın), veya üçüncü taraf proxy'nin sunduğu arayüze bağlı olarak diğer modeller için kullanılabilir. Görsel oluşturma ve düzenleme yapabilir; yapılandırılabilir gateway, model parametreleri ve yerel görsel çıktısını destekler.</strong></p>
+<p align="center"><a href="references/api-params.md"><img src="assets/banner.jpg" alt="image-gen-proxy banner" width="100%" /></a></p>
+<p align="center"><a href="https://www.npmjs.com/package/image-gen-proxy"><img src="https://img.shields.io/npm/v/image-gen-proxy?color=cb3837&label=npm" alt="NPM version"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a> <img src="https://img.shields.io/badge/node-%3E%3D18-339933" alt="Node.js >=18"> <img src="https://img.shields.io/badge/API-Proxy-6f42c1" alt="Configurable API proxy"></p>
 <p align="center"><a href="README.md">English</a> | <a href="README.es.md">Español</a> | <a href="README.pt.md">Português</a> | <a href="README.ja.md">日本語</a> | <a href="README.ko.md">한국어</a> | <a href="README.de.md">Deutsch</a> | <a href="README.fr.md">Français</a> | <a href="README.tr.md">Türkçe</a> | <a href="README.zh-TW.md">繁體中文</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.ru.md">Русский</a></p>
 
 ---
@@ -29,26 +29,26 @@ Bu proje, [orijinal GitHub projesi](https://github.com/EvoLinkAI/gpt-image-2-gen
 
 ## Bu nedir?
 
-**awesome-gpt-image-api-proxy-skills**, OpenAI uyumlu GPT Image API proxy’leri için bir AI ajan görüntü üretim skill’i ve npm kurucusudur. Sabit gateway kullanmaz; `GPT_IMAGE_BASE_URL` ve `GPT_IMAGE_API_KEY` değerlerini `.env` veya sistem ortamından okur.
+**image-gen-proxy**, OpenAI uyumlu GPT Image API proxy’leri için bir AI ajan görüntü üretim skill’i ve npm kurucusudur. Sabit gateway kullanmaz; `GPT_IMAGE_BASE_URL` ve `GPT_IMAGE_API_KEY` değerlerini `.env` veya sistem ortamından okur.
 
 | Skill | Açıklama | Varsayılan model |
 |---|---|---|
-| **Awesome GPT Image API Proxy Skills** | Metinden görsel, düzenleme, toplu üretim, yapılandırılabilir proxy, yerel indirme | `gpt-image-2` |
+| **Image Gen Proxy** | Metinden görsel, düzenleme, toplu üretim, yapılandırılabilir proxy, yerel indirme | `gpt-image-2` |
 
 ---
 
 ## Kurulum
 
 ```bash
-npx awesome-gpt-image-api-proxy-skills
-npx awesome-gpt-image-api-proxy-skills -y --path ~/.codex/skills
-npx awesome-gpt-image-api-proxy-skills -y --path ~/.claude/skills
+npx image-gen-proxy
+npx image-gen-proxy -y --path ~/.codex/skills
+npx image-gen-proxy -y --path ~/.claude/skills
 ```
 
 Manuel kurulum:
 
 ```bash
-cd awesome-gpt-image-api-proxy-skills
+cd image-gen-proxy
 node ./bin/cli.js -y --path ~/.codex/skills
 ```
 

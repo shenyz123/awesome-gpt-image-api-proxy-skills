@@ -7,7 +7,7 @@ const os = require('os');
 const readline = require('readline');
 
 const PKG_ROOT = path.resolve(__dirname, '..');
-const SKILL_SLUG = 'awesome-gpt-image-api-proxy-skills';
+const SKILL_SLUG = 'image-gen-proxy';
 const PKG_JSON = JSON.parse(fs.readFileSync(path.join(PKG_ROOT, 'package.json'), 'utf8'));
 
 function color(code, text) {
@@ -21,7 +21,7 @@ function dim(text) { return color('2', text); }
 
 function printBanner() {
   console.log('');
-  console.log(bold(cyan('awesome-gpt-image-api-proxy-skills')));
+  console.log(bold(cyan('image-gen-proxy')));
   console.log(dim('GPT Image API proxy skill installer, v' + PKG_JSON.version));
   console.log('');
 }
@@ -29,11 +29,11 @@ function printBanner() {
 function printHelp() {
   printBanner();
   console.log(bold('Usage:'));
-  console.log('  npx awesome-gpt-image-api-proxy-skills');
-  console.log('  npx awesome-gpt-image-api-proxy-skills -y --path <skills-dir>');
-  console.log('  npx awesome-gpt-image-api-proxy-skills --llms');
-  console.log('  npx awesome-gpt-image-api-proxy-skills --skill');
-  console.log('  npx awesome-gpt-image-api-proxy-skills --version');
+  console.log('  npx image-gen-proxy');
+  console.log('  npx image-gen-proxy -y --path <skills-dir>');
+  console.log('  npx image-gen-proxy --llms');
+  console.log('  npx image-gen-proxy --skill');
+  console.log('  npx image-gen-proxy --version');
   console.log('');
   console.log(bold('Runtime environment:'));
   console.log('  GPT_IMAGE_BASE_URL   Base URL for your OpenAI-compatible image API proxy');

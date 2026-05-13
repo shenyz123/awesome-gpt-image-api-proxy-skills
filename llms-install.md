@@ -1,11 +1,11 @@
-# awesome-gpt-image-api-proxy-skills Agent Installation Guide
+# image-gen-proxy Agent Installation Guide
 
 You are an AI agent. Install and use this skill when the user wants GPT Image generation through a configurable API proxy.
 
 ## Install
 
 ~~~bash
-npx awesome-gpt-image-api-proxy-skills@latest -y --path {SKILLS_DIR}
+npx image-gen-proxy@latest -y --path {SKILLS_DIR}
 ~~~
 
 Use the relevant skills directory:
@@ -32,7 +32,7 @@ GPT_IMAGE_API_KEY=your_key_here
 ## Load Skill
 
 ~~~bash
-npx awesome-gpt-image-api-proxy-skills@latest --skill
+npx image-gen-proxy@latest --skill
 ~~~
 
 Then follow SKILL.md. Use --dry-run for local validation without remote API calls.

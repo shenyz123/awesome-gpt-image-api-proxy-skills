@@ -161,7 +161,7 @@ test('CLI exposes new package version and skill output', () => {
 
   const skill = runNode([cli, '--skill']);
   assert.equal(skill.status, 0, skill.stderr || skill.stdout);
-  assert.match(skill.stdout, /name: awesome-gpt-image-api-proxy-skills/);
+  assert.match(skill.stdout, /name: image-gen-proxy/);
   assert.match(skill.stdout, /GPT_IMAGE_BASE_URL/);
   assert.match(skill.stdout, /GPT_IMAGE_API_KEY/);
 });

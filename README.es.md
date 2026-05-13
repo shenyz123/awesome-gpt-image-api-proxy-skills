@@ -2,11 +2,11 @@
 
 Este proyecto se desarrolla a partir del [proyecto original en GitHub](https://github.com/EvoLinkAI/gpt-image-2-gen-skill). Gracias a [evolink.ai](https://evolink.ai) por su excelente trabajo de código abierto.
 
-# awesome-gpt-image-api-proxy-skills
+# image-gen-proxy
 
-<p align="center"><strong>Skill de proxy GPT Image API para OpenClaw, Claude Code, OpenCode, Cursor y agentes de IA que necesitan generación configurable y salida local.</strong></p>
-<p align="center"><a href="references/api-params.md"><img src="assets/banner.jpg" alt="awesome-gpt-image-api-proxy-skills banner" width="100%" /></a></p>
-<p align="center"><a href="https://www.npmjs.com/package/awesome-gpt-image-api-proxy-skills"><img src="https://img.shields.io/npm/v/awesome-gpt-image-api-proxy-skills?color=cb3837&label=npm" alt="NPM version"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a> <img src="https://img.shields.io/badge/node-%3E%3D18-339933" alt="Node.js >=18"> <img src="https://img.shields.io/badge/API-Proxy-6f42c1" alt="Configurable API proxy"></p>
+<p align="center"><strong>Skill de proxy para GPT Image API orientado a Codex (OpenCode, Cursor y otros deben verificarlo por su cuenta), o para otros modelos según la interfaz que ofrezca el proxy de terceros. Permite generar y editar imágenes, con gateway configurable, parámetros de modelo y salida local de imágenes.</strong></p>
+<p align="center"><a href="references/api-params.md"><img src="assets/banner.jpg" alt="image-gen-proxy banner" width="100%" /></a></p>
+<p align="center"><a href="https://www.npmjs.com/package/image-gen-proxy"><img src="https://img.shields.io/npm/v/image-gen-proxy?color=cb3837&label=npm" alt="NPM version"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a> <img src="https://img.shields.io/badge/node-%3E%3D18-339933" alt="Node.js >=18"> <img src="https://img.shields.io/badge/API-Proxy-6f42c1" alt="Configurable API proxy"></p>
 <p align="center"><a href="README.md">English</a> | <a href="README.es.md">Español</a> | <a href="README.pt.md">Português</a> | <a href="README.ja.md">日本語</a> | <a href="README.ko.md">한국어</a> | <a href="README.de.md">Deutsch</a> | <a href="README.fr.md">Français</a> | <a href="README.tr.md">Türkçe</a> | <a href="README.zh-TW.md">繁體中文</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.ru.md">Русский</a></p>
 
 ---
@@ -29,26 +29,26 @@ Este proyecto se desarrolla a partir del [proyecto original en GitHub](https://g
 
 ## ¿Qué es esto?
 
-**awesome-gpt-image-api-proxy-skills** es un skill de generación de imágenes para agentes de IA y un instalador npm para proxies GPT Image compatibles con OpenAI. No usa una pasarela fija; lee `GPT_IMAGE_BASE_URL` y `GPT_IMAGE_API_KEY` desde `.env` o variables del sistema.
+**image-gen-proxy** es un skill de generación de imágenes para agentes de IA y un instalador npm para proxies GPT Image compatibles con OpenAI. No usa una pasarela fija; lee `GPT_IMAGE_BASE_URL` y `GPT_IMAGE_API_KEY` desde `.env` o variables del sistema.
 
 | Skill | Descripción | Modelo predeterminado |
 |---|---|---|
-| **Awesome GPT Image API Proxy Skills** | Texto a imagen, edición, generación por lotes, proxy configurable y descargas locales | `gpt-image-2` |
+| **Image Gen Proxy** | Texto a imagen, edición, generación por lotes, proxy configurable y descargas locales | `gpt-image-2` |
 
 ---
 
 ## Instalación
 
 ```bash
-npx awesome-gpt-image-api-proxy-skills
-npx awesome-gpt-image-api-proxy-skills -y --path ~/.codex/skills
-npx awesome-gpt-image-api-proxy-skills -y --path ~/.claude/skills
+npx image-gen-proxy
+npx image-gen-proxy -y --path ~/.codex/skills
+npx image-gen-proxy -y --path ~/.claude/skills
 ```
 
 Instalación manual:
 
 ```bash
-cd awesome-gpt-image-api-proxy-skills
+cd image-gen-proxy
 node ./bin/cli.js -y --path ~/.codex/skills
 ```
 

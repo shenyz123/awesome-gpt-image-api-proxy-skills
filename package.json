@@ -1,9 +1,9 @@
 {
-  "name": "awesome-gpt-image-api-proxy-skills",
+  "name": "image-gen-proxy",
   "version": "1.0.3",
   "description": "Agent Skill and npm installer for GPT Image API proxy generation using GPT_IMAGE_BASE_URL and GPT_IMAGE_API_KEY.",
   "bin": {
-    "awesome-gpt-image-api-proxy-skills": "./bin/cli.js"
+    "image-gen-proxy": "bin/cli.js"
   },
   "scripts": {
     "test": "node --test tests/*.test.js",
@@ -33,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shenyz123/awesome-gpt-image-api-proxy-skills.git"
+    "url": "git+https://github.com/shenyz123/awesome-gpt-image-api-proxy-skills.git"
   },
   "engines": {
     "node": ">=18"

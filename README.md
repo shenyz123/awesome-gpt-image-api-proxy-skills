@@ -2,18 +2,18 @@
 
 This project is developed based on [the original GitHub project](https://github.com/EvoLinkAI/gpt-image-2-gen-skill). Thanks to [evolink.ai](https://evolink.ai) for the excellent open-source work!
 
-# awesome-gpt-image-api-proxy-skills
+# image-gen-proxy
 
 <p align="center">
-  <strong>GPT Image API proxy skill for OpenClaw, Claude Code, OpenCode, Cursor, and AI agents that need configurable image generation with local file output.</strong>
+  <strong>GPT Image API proxy skill for Codex (OpenCode, Cursor, and others should verify compatibility independently), or other models depending on the third-party proxy interface. Generate and edit images with configurable gateways, model parameters, and local image output.</strong>
 </p>
 
 <p align="center">
-  <a href="references/api-params.md"><img src="assets/banner.jpg" alt="awesome-gpt-image-api-proxy-skills banner" width="100%" /></a>
+  <a href="references/api-params.md"><img src="assets/banner.jpg" alt="image-gen-proxy banner" width="100%" /></a>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/awesome-gpt-image-api-proxy-skills"><img src="https://img.shields.io/npm/v/awesome-gpt-image-api-proxy-skills?color=cb3837&label=npm" alt="NPM version"></a>
+  <a href="https://www.npmjs.com/package/image-gen-proxy"><img src="https://img.shields.io/npm/v/image-gen-proxy?color=cb3837&label=npm" alt="NPM version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/node-%3E%3D18-339933" alt="Node.js >=18">
   <img src="https://img.shields.io/badge/API-Proxy-6f42c1" alt="Configurable API proxy">
@@ -65,11 +65,11 @@ This project is developed based on [the original GitHub project](https://github.
 
 ## What is This?
 
-**awesome-gpt-image-api-proxy-skills** is an AI agent image generation skill and npm installer for OpenAI-compatible GPT Image API proxies. It keeps the agent workflow from the original GPT Image skill, but removes the fixed gateway and reads runtime configuration from `GPT_IMAGE_BASE_URL` and `GPT_IMAGE_API_KEY` in a project `.env` file or system environment.
+**image-gen-proxy** is an AI agent image generation skill and npm installer for OpenAI-compatible GPT Image API proxies. It keeps the agent workflow from the original GPT Image skill, but removes the fixed gateway and reads runtime configuration from `GPT_IMAGE_BASE_URL` and `GPT_IMAGE_API_KEY` in a project `.env` file or system environment.
 
 | Skill | Description | Default Model |
 |---|---|---|
-| **Awesome GPT Image API Proxy Skills** | Text-to-image, image editing, batch generation, configurable API proxy, local downloads | `gpt-image-2` |
+| **Image Gen Proxy** | Text-to-image, image editing, batch generation, configurable API proxy, local downloads | `gpt-image-2` |
 
 ---
 
@@ -78,37 +78,37 @@ This project is developed based on [the original GitHub project](https://github.
 ### Install via npm
 
 ```bash
-npx awesome-gpt-image-api-proxy-skills
+npx image-gen-proxy
 ```
 
 Non-interactive install for agents or CI:
 
 ```bash
-npx awesome-gpt-image-api-proxy-skills -y
+npx image-gen-proxy -y
 ```
 
 Install to a specific skills directory:
 
 ```bash
-npx awesome-gpt-image-api-proxy-skills -y --path ~/.codex/skills
-npx awesome-gpt-image-api-proxy-skills -y --path ~/.claude/skills
+npx image-gen-proxy -y --path ~/.codex/skills
+npx image-gen-proxy -y --path ~/.claude/skills
 ```
 
 ### Manual install from this workspace
 
 ```bash
-cd awesome-gpt-image-api-proxy-skills
+cd image-gen-proxy
 node ./bin/cli.js -y --path ~/.codex/skills
 ```
 
 ### Agent Auto-Install Prompt
 
 ```text
-Install the awesome GPT Image API proxy skill by running:
+Install the image-gen-proxy skill by running:
 
-npx awesome-gpt-image-api-proxy-skills@latest -y --path ~/.codex/skills
+npx image-gen-proxy@latest -y --path ~/.codex/skills
 
-Then configure GPT_IMAGE_BASE_URL and GPT_IMAGE_API_KEY in the project .env file or environment variables. Read ~/.codex/skills/awesome-gpt-image-api-proxy-skills/SKILL.md before generating images.
+Then configure GPT_IMAGE_BASE_URL and GPT_IMAGE_API_KEY in the project .env file or environment variables. Read ~/.codex/skills/image-gen-proxy/SKILL.md before generating images.
 ```
 
 ---
@@ -222,11 +222,11 @@ ERROR: <message>
 
 | Agent | Install Method |
 |---|---|
-| **Codex** | `npx awesome-gpt-image-api-proxy-skills -y --path ~/.codex/skills` |
-| **Claude Code** | `npx awesome-gpt-image-api-proxy-skills -y --path ~/.claude/skills` |
-| **OpenCode** | `npx awesome-gpt-image-api-proxy-skills -y --path ~/.opencode/skills` |
-| **OpenClaw** | `npx awesome-gpt-image-api-proxy-skills -y --path ~/.openclaw/skills` |
-| **Cursor / other agents** | `npx awesome-gpt-image-api-proxy-skills -y --path <your-skills-dir>` |
+| **Codex** | `npx image-gen-proxy -y --path ~/.codex/skills` |
+| **Claude Code** | `npx image-gen-proxy -y --path ~/.claude/skills` |
+| **OpenCode** | `npx image-gen-proxy -y --path ~/.opencode/skills` |
+| **OpenClaw** | `npx image-gen-proxy -y --path ~/.openclaw/skills` |
+| **Cursor / other agents** | `npx image-gen-proxy -y --path <your-skills-dir>` |
 
 ---
 

@@ -1,9 +1,9 @@
 ---
-name: awesome-gpt-image-api-proxy-skills
+name: image-gen-proxy
 description: Generate and edit images through an OpenAI-compatible GPT Image API proxy. Use when Codex needs text-to-image, image editing with reference URLs, batch image generation, custom model selection with --model, local output download with --out, or runtime configuration from GPT_IMAGE_BASE_URL and GPT_IMAGE_API_KEY in .env or environment variables.
 ---
 
-# Awesome GPT Image API Proxy Skills
+# Image Gen Proxy
 
 Use this skill to generate or edit images through a configurable GPT Image API proxy.
 
