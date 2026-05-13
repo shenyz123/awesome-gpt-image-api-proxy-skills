@@ -1,6 +1,6 @@
 {
   "name": "image-gen-proxy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Agent Skill and npm installer for GPT Image API proxy generation using GPT_IMAGE_BASE_URL and GPT_IMAGE_API_KEY.",
   "bin": {
     "image-gen-proxy": "bin/cli.js"
