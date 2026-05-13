@@ -1,6 +1,6 @@
-## 致谢 / Acknowledgments
+## 致谢
 
-本项目基于 [原项目GitHub链接](https://github.com/EvoLinkAI/gpt-image-2-gen-skill) 进行开发，感谢作者 [evolink.ai](https://evolink.ai) 提供的优秀开源成果！
+本项目基于 [原 GitHub 项目](https://github.com/EvoLinkAI/gpt-image-2-gen-skill) 开发，感谢作者 [evolink.ai](https://evolink.ai) 提供的优秀开源成果！
 
 # awesome-gpt-image-api-proxy-skills
 
@@ -9,12 +9,12 @@
 </p>
 
 <p align="center">
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/references/api-params.md"><img src="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/assets/banner.jpg" alt="awesome-gpt-image-api-proxy-skills banner" width="100%" /></a>
+  <a href="references/api-params.md"><img src="assets/banner.jpg" alt="awesome-gpt-image-api-proxy-skills banner" width="100%" /></a>
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/awesome-gpt-image-api-proxy-skills"><img src="https://img.shields.io/npm/v/awesome-gpt-image-api-proxy-skills?color=cb3837&label=npm" alt="NPM version"></a>
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/node-%3E%3D18-339933" alt="Node.js >=18">
   <img src="https://img.shields.io/badge/API-Proxy-6f42c1" alt="Configurable API proxy">
 </p>
@@ -29,22 +29,22 @@
 </p>
 
 <p align="center">
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.md">English</a> |
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.es.md">Español</a> |
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.pt.md">Português</a> |
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.ja.md">日本語</a> |
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.ko.md">한국어</a> |
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.de.md">Deutsch</a> |
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.fr.md">Français</a> |
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.tr.md">Türkçe</a> |
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.zh-TW.md">繁體中文</a> |
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.zh-CN.md">简体中文</a> |
-  <a href="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/README.ru.md">Русский</a>
+  <a href="README.md">English</a> |
+  <a href="README.es.md">Español</a> |
+  <a href="README.pt.md">Português</a> |
+  <a href="README.ja.md">日本語</a> |
+  <a href="README.ko.md">한국어</a> |
+  <a href="README.de.md">Deutsch</a> |
+  <a href="README.fr.md">Français</a> |
+  <a href="README.tr.md">Türkçe</a> |
+  <a href="README.zh-TW.md">繁體中文</a> |
+  <a href="README.zh-CN.md">简体中文</a> |
+  <a href="README.ru.md">Русский</a>
 </p>
 
 ---
 
-> **AI Agent?** 可跳过 README，直接阅读 [**llms-install.md**](https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/llms-install.md) 获取面向 Agent 的安装步骤。
+> **AI Agent?** 可跳过 README，直接阅读 [**llms-install.md**](llms-install.md) 获取面向 Agent 的安装步骤。
 
 ---
 
@@ -133,7 +133,7 @@ GPT_IMAGE_API_KEY=your_key_here
 
 | 人像风格 | 产品营销 | 角色设计 |
 |---|---|---|
-| <img src="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/assets/showcase/portrait.jpg" alt="Portrait example" width="100%"> | <img src="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/assets/showcase/product.jpg" alt="Product example" width="100%"> | <img src="https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/assets/showcase/character.jpg" alt="Character example" width="100%"> |
+| <img src="assets/showcase/portrait.jpg" alt="Portrait example" width="100%"> | <img src="assets/showcase/product.jpg" alt="Product example" width="100%"> | <img src="assets/showcase/character.jpg" alt="Character example" width="100%"> |
 
 > 内置展示图用于说明图像生成工作流可能产生的效果。实际结果取决于你配置的 API 代理和选择的模型。
 
@@ -170,7 +170,7 @@ node ./scripts/gpt-image-gen.js "测试提示词" --model=gpt-image-2 --out=./gp
 
 ### API 参数
 
-完整端点、payload、结果和输出说明见 [references/api-params.md](https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/references/api-params.md)。
+完整端点、payload、结果和输出说明见 [references/api-params.md](references/api-params.md)。
 
 ### 输出协议
 
@@ -238,9 +238,9 @@ MIT
 
 ## 社区
 
-- 技能定义：[SKILL.md](https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/SKILL.md)
-- Agent 安装指南：[llms-install.md](https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/llms-install.md)
-- API 参考：[references/api-params.md](https://cdn.jsdelivr.net/npm/awesome-gpt-image-api-proxy-skills@latest/references/api-params.md)
+- 技能定义：[SKILL.md](SKILL.md)
+- Agent 安装指南：[llms-install.md](llms-install.md)
+- API 参考：[references/api-params.md](references/api-params.md)
 
 ---
 
